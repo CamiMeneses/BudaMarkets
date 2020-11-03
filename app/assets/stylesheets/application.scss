@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+@import "materialize";
+$shadow-color:pink;
+
+body{
+  background: linear-gradient(135deg, rgba(123,0,194,1) 0%, rgba(123,0,194,1) 6%, rgba(232,159,81,1) 73%, rgba(232,196,88,1) 91%, rgba(232,196,88,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100vh;
+}
+
+table{
+  background: white;
+}
+
+.container{
+  padding-bottom: 3em;
+}
+
+h1{
+  text-shadow: 1px 1px 1px $shadow-color, 1px -1px 1px $shadow-color, -1px 1px 1px $shadow-color, -1px -1px 1px $shadow-color;
+}
+
+.alert{
+  color: white;
+  background: rgba(255, 255, 255, 0.39);
+  padding: 1em;
+}

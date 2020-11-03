@@ -1,0 +1,22 @@
+<div class='container'>
+  <h1 class="white-text">Mercado de criptomonedas</h1>
+
+  <table class="striped highlight centered z-depth-2">
+    <thead>
+      <tr class="red-text text-lighten-1 z-depth-2">
+        <th>MERCADO</th>
+        <th>MONTO MÁXIMO EN 24H</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%if @markets %>
+        <% @markets.map do |name, value| %>
+          <tr class="gray-text text-darken-3">
+            <td><%= name %></td>
+            <td><%= number_to_currency(value, unit: name[0..2] + ' ', precision: 8) %></td>
+          </tr>
+        <% end%>
+      <% end%>
+    </tbody>
+  </table>
+</div>
