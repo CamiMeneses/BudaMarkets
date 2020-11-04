@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It shows the maximun amount of each market in the past 24 h
 
-Things you may want to cover:
+![alt text](https://github.com/CamiMeneses/BudaMarkets/blob/master/readme_files/index.png?raw=true)
 
-* Ruby version
+1. clone the repository
+2. run: rails server
+3. go to your localhost:3000
 
-* System dependencies
+If you wanna see the table in your terminal please run: ruby markets.rb
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![alt text](https://github.com/CamiMeneses/BudaMarkets/blob/master/readme_files/terminal.png?raw=true)
